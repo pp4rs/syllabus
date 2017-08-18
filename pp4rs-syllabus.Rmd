@@ -16,7 +16,7 @@ author:
 semester: "Fall 2017"
 
 email: "programming@econ.uzh.ch"
-web: "lachlandeer.github.io/prog-course-uzh"
+web: "pp4rs.github.io/2017-uzh"
 classroom: "To Be Announced"
 classhours: 
 - "9:30am-12:30pm, 2pm - 5pm"

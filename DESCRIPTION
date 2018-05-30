@@ -1,0 +1,8 @@
+Lesson: syllabus
+Title: Course Syllabus for Programming Practices for Research Students
+Version: 2017.1.0
+Authors: person("Lachlan", "Deer", email = "lachlan.deer@gmail.com", role = c("aut", "cre"))
+Maintainer: Lachlan Deer <lachlan.deer@gmail.com>
+Description: Course Syllabus. Built using `knitr`
+License: CC-BY-NC-SA
+Encoding: UTF-8

@@ -13,7 +13,7 @@ author:
     - Lachlan Deer
 semester: "Winter 2020"
 
-email: "programming@econ.uzh.ch"
+email: "pp4rs.contact@gmail.com"
 web: "pp4rs.github.io/2017-uzh"
 classroom: "To Be Announced"
 classhours:

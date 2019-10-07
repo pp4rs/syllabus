@@ -11,7 +11,7 @@ title: "Programming Practices for Research in Economics"
 author:
     - Ulrich Bergmann
     - Lachlan Deer
-semester: "Fall 2017"
+semester: "Winter 2020"
 
 email: "programming@econ.uzh.ch"
 web: "pp4rs.github.io/2017-uzh"

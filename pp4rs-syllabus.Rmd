@@ -18,7 +18,7 @@ web: "pp4rs.github.io/2017-uzh"
 classroom: "To Be Announced"
 classhours:
 - "9:30am-12:30pm, 2pm - 5pm"
-dates: "28th August - 15th September"
+dates: "27th January - 14th February"
 days: "daily, Monday - Friday"
 
 

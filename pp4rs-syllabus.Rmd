@@ -5,7 +5,7 @@ output:
     fig_caption: yes
     latex_engine: pdflatex
     template: ./svm-latex-syllabus.tex
-geometry: margin=1in
+geometry: margin=0.85in
 
 title: "Programming Practices for Research in Economics"
 author:
@@ -20,7 +20,6 @@ classhours:
 - "9:30am-12:30pm, 2pm - 5pm"
 dates: "27th January - 14th February"
 days: "daily, Monday - Friday"
-
 
 fontfamily: mathpazo
 fontsize: 11pt
@@ -96,14 +95,14 @@ Feel free to talk to us before and after each session throughout the course and 
 The following is a preliminary programme.
 It may be updated prior to the beginning of the course, and updated schedule will be forwarded before the course begins.
 
-              Monday            Tuesday           Wednesday         Thursday         Friday
-  ----------- ----------------- ----------------- ----------------- ---------------- ---------------
-  *Week 1*
-  Morning     Introduction      Version Control   Version Control   Basic Python     Basic Python
-  Afternoon   Terminal          Version Control   Version Control   Basic Python     Basic Python
-  *Week 2*
-  Morning     Python: OOP       Python: Numpy     R: Basics         R: Basics        R: Plotting
-  Afternoon   Python: Pandas    Python: SciPy     R: knitr          R: Data Analy.   Advanced R
-  *Week 3*
-  Morning     R: Econometrics   Build Tools       Web Scraping      GIS data in R    Clean Code
-  Afternoon   R: Econometrics   Build Tools       Web Scraping      Databases: SQL   Code Optimiz.
+  |              |  Monday         |       Tuesday       |       Wednesday         |      Thursday      |     Friday     |
+  | -----------  |-----------------| ------------------- | ------------------------|--------------------| ---------------|
+  | *Week 1:*    |   |   |   |   |   |   |
+  | AM           |  Terminal       |  Basic Python       |  Basic Python           | Python: Pandas     | Python: Metrics |
+  | PM           |  Terminal       |  Basic Python       | Python: Numpy           | Python: Plotting   | Python: SciPy   |
+  | *Week 2:*    |   |   |   |   |   |   |
+  | AM           | Webscraping      | Python Project     |   Version Control       | Version Control    | R: Basics       |
+  | PM           |  Adv. Python     | Python Project     |  Version Control        | R: Basics          | R: Data Analy.  |
+  | *Week 3:*    |   |   |   |   |   |   |
+  | AM           | R: Plotting      | R: Econometrics    | R Project               |  Build Tools       |  Build Tools |
+  | PM           | R: Econometrics  | Advanced R         | R Project               |  Build Tools       |  Build Tools  |

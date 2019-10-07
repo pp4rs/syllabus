@@ -1,5 +1,5 @@
 ---
-output: 
+output:
   pdf_document:
     keep_tex: false
     fig_caption: yes
@@ -9,18 +9,19 @@ geometry: margin=1in
 
 title: "Programming Practices for Research in Economics"
 author:
-    - Lachlan Deer
-    - Adrian Etter
-    - Julian Langer
-    - Max Winkler
-semester: "Fall 2017"
+    - Christian Zünd
+    - Dora Simon,
+    - Ursina Schaede
+    - Ulrich Bergmann
+    - Carlo Zanella
+semester: "Fall 2018"
 
 email: "programming@econ.uzh.ch"
-web: "pp4rs.github.io/2017-uzh"
+web: "pp4rs.github.io/2018-uzh"
 classroom: "To Be Announced"
-classhours: 
+classhours:
 - "9:30am-12:30pm, 2pm - 5pm"
-dates: "28th August - 15th September"
+dates: "To be confirmed"
 days: "daily, Monday - Friday"
 
 
@@ -93,6 +94,7 @@ Feel free to talk to us before and after each session throughout the course and 
 * Afternoon Session: 14.00 - 17.00
 * Location: TBA
 
+
 # Preliminary Programme
 
 The following is a preliminary programme.
@@ -100,13 +102,39 @@ It may be updated prior to the beginning of the course, and updated schedule wil
 
               Monday            Tuesday           Wednesday         Thursday         Friday
   ----------- ----------------- ----------------- ----------------- ---------------- ---------------
-  *Week 1*                                                                             
-  Morning     Introduction      Version Control   Version Control   Basic Python     Basic Python
-  Afternoon   Terminal          Version Control   Version Control   Basic Python     Basic Python
-  *Week 2*                                                                             
-  Morning     Python: OOP       Python: Numpy     R: Basics         R: Basics        R: Plotting
-  Afternoon   Python: Pandas    Python: SciPy     R: knitr          R: Data Analy.   Advanced R
-  *Week 3*                                                                             
-  Morning     R: Econometrics   Build Tools       Web Scraping      GIS data in R    Clean Code
-  Afternoon   R: Econometrics   Build Tools       Web Scraping      Databases: SQL   Code Optimiz.
+  *Week 1*
+  Morning     Introduction      Version Control   Python Basic      Python Pandas    Python Project
+  Afternoon   Terminal          Python Basic      Python Numpy      Python Project   Python Project
+  *Week 2*
+  Morning     Webscraping       Webscraping       QGIS              R                R
+  Afternoon   Webscraping       QGIS              R                 R                R
+  *Week 3*
+  Morning     R                 Automatization    Machine Learning  Machine Learning ML Project
+  Afternoon   R                 Automatization    Machine Learning  Machine Learning ML Project
 
+
+# Topics in Depth
+
+## Terminal and Version Control
+
+You will learn how to use the terminal, the nerdy black window with the white font, on your computer. It's nerdy, but useful. Version control helps to avoid having five times the same document with the ending v1, v2, v3, FINAL, FINAL-FINAL.
+
+## Python
+
+Python is a real programming language that is used by real programmers. Numpy and Pandas are so-called libraries that store commands you will find useful for your research.
+
+## Webscraping and QGIS
+
+Webscraping enables you to extract information from websites and store it in a data file. QGIS is used when working with geospatial data (e.g. maps). Both of these tools are used a lot and you will very likely encounter them at some point of your research career.
+
+## R
+
+R is a programming language dedicated to data analysis. It is great for data manipulation, regressions and graphs - everything a researcher cares about.
+
+## Automatization
+
+You will learn how you can assemble all your little codes into a big research project in the most efficient way. Also, you will learn how to do the same procedure several times without copy-pasting code.
+
+## Machine Learning
+
+Standard programming gives your computer specific instructions on how to fulfill a task. Machine Learning tells your computer to achieve a certain goal without specifying every little step but letting it find out how to achieve the goal in the best way.

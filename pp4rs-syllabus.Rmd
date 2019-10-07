@@ -1,5 +1,5 @@
 ---
-output: 
+output:
   pdf_document:
     keep_tex: false
     fig_caption: yes
@@ -9,16 +9,14 @@ geometry: margin=1in
 
 title: "Programming Practices for Research in Economics"
 author:
+    - Ulrich Bergmann
     - Lachlan Deer
-    - Adrian Etter
-    - Julian Langer
-    - Max Winkler
 semester: "Fall 2017"
 
 email: "programming@econ.uzh.ch"
 web: "pp4rs.github.io/2017-uzh"
 classroom: "To Be Announced"
-classhours: 
+classhours:
 - "9:30am-12:30pm, 2pm - 5pm"
 dates: "28th August - 15th September"
 days: "daily, Monday - Friday"
@@ -100,13 +98,12 @@ It may be updated prior to the beginning of the course, and updated schedule wil
 
               Monday            Tuesday           Wednesday         Thursday         Friday
   ----------- ----------------- ----------------- ----------------- ---------------- ---------------
-  *Week 1*                                                                             
+  *Week 1*
   Morning     Introduction      Version Control   Version Control   Basic Python     Basic Python
   Afternoon   Terminal          Version Control   Version Control   Basic Python     Basic Python
-  *Week 2*                                                                             
+  *Week 2*
   Morning     Python: OOP       Python: Numpy     R: Basics         R: Basics        R: Plotting
   Afternoon   Python: Pandas    Python: SciPy     R: knitr          R: Data Analy.   Advanced R
-  *Week 3*                                                                             
+  *Week 3*
   Morning     R: Econometrics   Build Tools       Web Scraping      GIS data in R    Clean Code
   Afternoon   R: Econometrics   Build Tools       Web Scraping      Databases: SQL   Code Optimiz.
-

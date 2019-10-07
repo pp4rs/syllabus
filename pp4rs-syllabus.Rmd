@@ -14,7 +14,7 @@ author:
 semester: "Winter 2020"
 
 email: "pp4rs.contact@gmail.com"
-web: "pp4rs.github.io/2017-uzh"
+web: "pp4rs.github.io/2020-uzh"
 classroom: "To Be Announced"
 classhours:
 - "9:30am-12:30pm, 2pm - 5pm"

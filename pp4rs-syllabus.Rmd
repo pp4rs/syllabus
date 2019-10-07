@@ -36,12 +36,12 @@ Unfortunately, it is rare that they have been taught how to do this well.
 Class exposure to programming languages is most often limited to the simple use of Stata and Matlab to solve `toy' examples designed to illustrate a theoretical result or implement a method with known properties and ex-ante known results.
 These skills do not scale up in a straightforward manner to handle complex projects that make up research papers, PhD theses or typical work in government or private business settings.
 As a result, young economic researchers spend too much time wrestling with software and too little time doing economics -- where their advantage generally lies.
-Even with their large investments in software wrestling, we typically have no idea how reliable or efficient their programs are.
+Even with their large investments in software wrestling and self-learned skills, we typically have no idea how reliable or efficient their programs are.
 
-This course is designed to sort out this messy state of affairs.
+This course is designed to improve learners programming abilities.
 It is aimed at PhD students who expect to write their theses in a field that requires modest to heavy use of computation.
 Examples include applied microeconomics, econometrics, macroeconomics, computational economics and any field that either involves real-world data or  does not generally lead to models with simple closed-form solutions.
-We will introduce students to programming methods that will substantially reduce their time spent programming while at the same time making their programs more dependable and their results reproducible.
+We will introduce students to a set of tools and programming methods that aims to reduce their time spent programming while at the same time making their programs more dependable and their results reproducible.
 
 The course draws extensively on some simple techniques that are the backbone of modern software development which most economists
 are simply not aware of.
@@ -54,8 +54,9 @@ Next to your economics background, we will only assume that you have written sma
 Knowledge of a specific programming language is not required.
 
 A large part of this course is really about tool choice.
-We will take care in pointing out which language is most appropriate for which problem, and provide you with introductions to three popular choices for data- and computationally intensive computing.
-These are not the only choices available but some knowledge of these languages will make picking up others on your own or through our PhD computing seminars relatively easy.
+We will take care in pointing out which language is most appropriate for which problem, and provide you with introductions to two popular choices for data- and computationally intensive computing.
+We also introduce a tool kit designed to improve the replicability of your code.
+The programming languages and tools introduced in the course are not the only choices available but some knowledge of these languages will make picking up others on your own relatively easy by providing a solid basic training.
 
 #  Course Objectives
 This course has two closely intertwined objectives:

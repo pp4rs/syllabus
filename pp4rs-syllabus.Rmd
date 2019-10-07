@@ -135,7 +135,7 @@ These lessons will start you on a path towards using these resources effectively
 
 These modules have two distinct goals: (1) introduce basic programming syntax, and (2) introducing specific packages that are useful for computational analysis and data-driven research.
 We introduce basic programming syntax using the Python language because of it's simplicity to get started for novice users.
-The introductions to specific packages are designed to highlight how to solve problems that are typically encountered by economics and business researchers using the Python language.
+The introductions to specific packages are designed to highlight how to solve problems that are typically encountered by economics and business researchers - such as solving an model using computational techniques, automated collection of data from websites or applied microeconometric modelling, using the Python language.
 We emphasize best practice technqiues as we progress through the material.
 
 ### Version Control

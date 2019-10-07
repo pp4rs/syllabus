@@ -98,11 +98,23 @@ It may be updated prior to the beginning of the course, and updated schedule wil
   |              |  Monday         |       Tuesday       |       Wednesday         |      Thursday      |     Friday     |
   | -----------  |-----------------| ------------------- | ------------------------|--------------------| ---------------|
   | *Week 1:*    |   |   |   |   |   |   |
-  | AM           |  Terminal       |  Basic Python       |  Basic Python           | Python: Pandas     | Python: Metrics |
-  | PM           |  Terminal       |  Basic Python       | Python: Numpy           | Python: Plotting   | Python: SciPy   |
+  | AM           |  Terminal*      |  Basic Python       |  Basic Python           | Python: Pandas     | Python: Metrics |
+  | PM           |  Terminal*      |  Basic Python       | Python: Numpy           | Python: Plotting   | Python: SciPy   |
   | *Week 2:*    |   |   |   |   |   |   |
-  | AM           | Webscraping      | Python Project     |   Version Control       | Version Control    | R: Basics       |
-  | PM           |  Adv. Python     | Python Project     |  Version Control        | R: Basics          | R: Data Analy.  |
+  | AM           | Webscraping      | Python Project     |   Version Control*      | Version Control*    | R: Basics*      |
+  | PM           |  Adv. Python     | Python Project     |  Version Control*       | R: Basics*          | R: Data Analy.* |
   | *Week 3:*    |   |   |   |   |   |   |
-  | AM           | R: Plotting      | R: Econometrics    | R Project               |  Build Tools       |  Build Tools |
-  | PM           | R: Econometrics  | Advanced R         | R Project               |  Build Tools       |  Build Tools  |
+  | AM           | R: Plotting*     | R: Econometrics    | R Project               |  Build Tools*       |  Build Tools |
+  | PM           | R: Econometrics* | Advanced R         | R Project               |  Build Tools*       |  Build Tools  |
+
+## 1st Year Students vs. 2nd Year Students
+
+In this edition we have two distinct groups of students:
+
+* 1st year PhD Students: who have not taken any existing PP4RS courses
+    - We expect you to attend **all sessions**
+* 2nd year PhD Students: who have taken the PP4RS: Foundations course in 2019
+    - Can skip sessions marked with a *, but can attend as a refresher
+    - We expect you to be fluent in these topics
+
+The exact topics covered in each *'d session might differ slightly from the 2020 version as we have more time, and our thoughts on what is important to cover may have evolved over time.

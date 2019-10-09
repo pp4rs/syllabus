@@ -1,28 +1,25 @@
 ---
-output: 
+output:
   pdf_document:
     keep_tex: false
     fig_caption: yes
     latex_engine: pdflatex
     template: ./svm-latex-syllabus.tex
-geometry: margin=1in
+geometry: margin=0.85in
 
 title: "Programming Practices for Research in Economics"
 author:
+    - Ulrich Bergmann
     - Lachlan Deer
-    - Adrian Etter
-    - Julian Langer
-    - Max Winkler
-semester: "Fall 2017"
+semester: "Winter 2020"
 
-email: "programming@econ.uzh.ch"
-web: "pp4rs.github.io/2017-uzh"
+email: "pp4rs.contact@gmail.com"
+web: "pp4rs.github.io/2020-uzh"
 classroom: "To Be Announced"
-classhours: 
+classhours:
 - "9:30am-12:30pm, 2pm - 5pm"
-dates: "28th August - 15th September"
+dates: "27th January - 14th February"
 days: "daily, Monday - Friday"
-
 
 fontfamily: mathpazo
 fontsize: 11pt
@@ -33,22 +30,22 @@ header-includes:
 
 # Motivation
 
-Much of modern economics research involves the researcher spending their lives in front of a computer -- analysing data or simulating economic models.
+Much of of a researchers live in modern economic research is spent in front of a computer -- be it to analyze data or to simulate economic models.
 
-Unfortunately, it is rare that they have been taught how to do this well.
+Unfortunately, it is rare that we have been taught how to do this in a structured and efficient way.
 Class exposure to programming languages is most often limited to the simple use of Stata and Matlab to solve `toy' examples designed to illustrate a theoretical result or implement a method with known properties and ex-ante known results.
-These skills do not scale up in a straightforward manner to handle complex projects that make up research papers, PhD theses or typical work in government or private business settings.
-As a result, young economic researchers spend too much time wrestling with software and too little time doing economics -- where their advantage generally lies.
-Even with their large investments in software wrestling, we typically have no idea how reliable or efficient their programs are.
+These skills, like copy and pasting pieces of code repeatedly, do not scale up in a straightforward manner to handle complex projects that make up research papers, PhD theses or typical work in government or private business settings.
+As a result, young economic researchers spend too much time wrestling with software and too little time doing economics -- our comparative advantage.
+Even with large investments in software wrestling and self-learned skills, we typically have no idea how reliable or efficient our programs are.
 
-This course is designed to sort out this messy state of affairs.
+This course is designed to improve learners' programming abilities.
 It is aimed at PhD students who expect to write their theses in a field that requires modest to heavy use of computation.
-Examples include applied microeconomics, econometrics, macroeconomics, computational economics and any field that either involves real-world data or  does not generally lead to models with simple closed-form solutions.
-We will introduce students to programming methods that will substantially reduce their time spent programming while at the same time making their programs more dependable and their results reproducible.
+Examples include applied microeconomics, econometrics, macroeconomics, computational economics and any field that either involves real-world data or does not generally lead to models with simple closed-form solutions.
 
-The course draws extensively on some simple techniques that are the backbone of modern software development which most economists
-are simply not aware of.
-It shows the usefulness of these techniques by means of hands-on examples for a wide variety of economic and econometric applications.
+The course introduces students to a set of industry standard tools and programming methods that aim to reduce time spent programming while at the same time making programs more dependable and results reproducible.
+It draws extensively on basic techniques and tools that are the backbone of modern software development and have enabled the development and maintainance of Windows or the Google search engine.
+At the same time, these tools are simple enough to be used in small research projects, too.
+The course shows the usefulness of these techniques and trains the student in them by means of hands-on examples for a wide variety of economic and econometric applications.
 
 # Target Audience
 
@@ -57,10 +54,12 @@ Next to your economics background, we will only assume that you have written sma
 Knowledge of a specific programming language is not required.
 
 A large part of this course is really about tool choice.
-We will take care in pointing out which language is most appropriate for which problem, and provide you with introductions to three popular choices for data- and computationally intensive computing.
-These are not the only choices available but some knowledge of these languages will make picking up others on your own or through our PhD computing seminars relatively easy.
+We will take care in pointing out which language is most appropriate for which problem, and provide you with introductions to two popular choices for data- and computationally intensive computing.
+We also introduce a tool kit designed to improve the replicability of your code.
+The programming languages and tools introduced in the course are not the only choices available but some knowledge of these languages and best practices will make picking up others on your own relatively easy by providing a solid basic training.
 
 #  Course Objectives
+
 This course has two closely intertwined objectives:
 
 1. Enhancing students' programming efficiency.
@@ -82,31 +81,89 @@ Slides or notes will be made available at the beginning of each day, codes that 
 
 # Office Hours
 
-Due to the intensive nature of the course, we have decided not to schedule office hours.
+Due to the intensive nature of the course, we have decided to not schedule office hours.
 Feel free to talk to us before and after each session throughout the course and ask many questions during each session.
 
 
 # Times and Locations
 
-* Dates: Daily from August 28th until September 15th (excluding weekends)
+* Dates: Daily from 27th January until 14th February (excluding weekends)
 * Morning Session: 9.30 - 12.30
 * Afternoon Session: 14.00 - 17.00
 * Location: TBA
+
+\newpage
 
 # Preliminary Programme
 
 The following is a preliminary programme.
 It may be updated prior to the beginning of the course, and updated schedule will be forwarded before the course begins.
 
-              Monday            Tuesday           Wednesday         Thursday         Friday
-  ----------- ----------------- ----------------- ----------------- ---------------- ---------------
-  *Week 1*                                                                             
-  Morning     Introduction      Version Control   Version Control   Basic Python     Basic Python
-  Afternoon   Terminal          Version Control   Version Control   Basic Python     Basic Python
-  *Week 2*                                                                             
-  Morning     Python: OOP       Python: Numpy     R: Basics         R: Basics        R: Plotting
-  Afternoon   Python: Pandas    Python: SciPy     R: knitr          R: Data Analy.   Advanced R
-  *Week 3*                                                                             
-  Morning     R: Econometrics   Build Tools       Web Scraping      GIS data in R    Clean Code
-  Afternoon   R: Econometrics   Build Tools       Web Scraping      Databases: SQL   Code Optimiz.
+  |              |  Monday         |       Tuesday       |       Wednesday         |      Thursday      |     Friday     |
+  | -----------  |-----------------| ------------------- | ------------------------|--------------------| ---------------|
+  | *Week 1:*    |   |   |   |   |   |   |
+  | AM           |  Terminal*      |  Basic Python       |  Basic Python           | Python: Pandas     | Python: Metrics |
+  | PM           |  Terminal*      |  Basic Python       | Python: Numpy           | Python: Plotting   | Python: SciPy   |
+  | *Week 2:*    |   |   |   |   |   |   |
+  | AM           | Webscraping      | Python Project     |   Version Control*      | Version Control*    | R: Basics*      |
+  | PM           |  Adv. Python     | Python Project     |  Version Control*       | R: Basics*          | R: Data Analy.* |
+  | *Week 3:*    |   |   |   |   |   |   |
+  | AM           | R: Plotting*     | R: Econometrics    | R Project               |  Build Tools*       |  Build Tools |
+  | PM           | R: Econometrics* | Advanced R         | R Project               |  Build Tools*       |  Build Tools  |
 
+Students are expected to have completed the [Installation Guide](https://pp4rs.github.io/installation-guide/) and successfully installed all required software for the course prior to the first day.
+
+## 1st Year Students vs. 2nd Year Students
+
+In this edition we have two distinct groups of students:
+
+* 1st year PhD Students, who have not taken any existing PP4RS courses
+    - We expect you to attend **all sessions**
+* 2nd year PhD Students, who have taken the PP4RS: Foundations course in 2019
+    - Can skip sessions marked with a *, but can attend as a refresher
+    - We expect you to be fluent in these topics
+
+The exact topics covered in each session market with a * might differ slightly from the 2019 version as we have more time and our thoughts on what is important to cover may have evolved over time.
+
+## Brief Topic Outlines
+
+### Terminal
+
+The Unix shell has been around longer than most of its users have been alive.
+It has survived so long because it’s a power tool that allows people to do complex things with just a few keystrokes.
+More importantly, it helps to combine existing programs in new ways and automate repetitive tasks to avoid typing the same things over and over again.
+Use of the shell is fundamental to using a wide range of other powerful tools and computing resources (including “high-performance computing” and cloud computing resources).
+These lessons will start you on a path towards using these resources effectively.
+
+### Python Programming Language
+
+Python is one of the most popular and fastest growing programming language because of its ease of use and power.
+It has also become the most used statistical software in the recent years.
+These modules have two distinct goals: (1) introduce basic programming syntax, and (2) introducing specific packages that are useful for computational analysis and data-driven research.
+We introduce basic programming syntax using the Python language because of its simplicity to get started for novice users.
+The introductions to specific packages are designed to highlight how to solve problems that are typically encountered by economics and business researchers -- such as solving models using computational techniques, the automated collection of data from websites or applied microeconometric modelling, using the Python language.
+We emphasize best practice technqiues as we progress through the material.
+
+### Version Control
+
+Version control is the lab notebook of the digital world: it’s what professionals use to keep track of what they’ve done and to collaborate with other people.
+Every large software development project relies on it, and programmers use it for their small jobs as well.
+And it isn’t just for software: books, papers, small data sets, and anything that changes over time or needs to be shared can and should be stored in a version control system.
+Teams are not the only ones to benefit from version control: lone researchers can benefit immensely. Keeping a record of what was changed, when, and why is extremely useful for all researchers if they ever need to come back to the project later on (e.g., a year later, when memory has faded or a former version of a file has been overwritten).
+
+### The R Programming Language
+
+The goal of this lesson is to teach novice programmers to write modular code and best practices for using R for data analysis.
+R is free, computationally fast, and has a wide array of third-party packages for almost all imaginable statistical applications. It is the second most used statistical software today and the most popular one among academic researchers.
+The emphasis of these materials is to give attendees a strong foundation in the fundamentals of R and to teach best practices for scientific computing: breaking down analyses into modular units, task automation, and encapsulation.
+This workshop will focus on teaching the fundamentals of the programming language R, data wrangling, data visualization and regression techniques common to applied microeconomics researchers.
+
+### Build Tools
+
+Build Tools can run commands to read files, process these files in some way, and write out the processed files. For example, we can:
+
+* Run analysis scripts on raw data files to get data files that summarize the raw data;
+* Run visualization scripts on data files to produce plots and statistical tables; and to
+* Parse and combine text files, tables and plots to create papers.
+
+Most importantly, Build Tools track the dependencies between the files they create and the files used to create them. This allows build tools to only recompute necessary steps after a data or code file has been changed -- without the need to run the whole project from the beginning.

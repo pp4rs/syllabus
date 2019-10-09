@@ -32,3 +32,11 @@ rule build_pdf:
 rule clean_:
     shell:
         "rm {OUTPUT}"
+
+## install_packages   : installs missing R packages
+rule install_r_packages:
+    input:
+        script = "install_r_packages.R",
+        requirements = "REQUIREMENTS.txt"
+    shell:
+        "Rscript {input.script}"

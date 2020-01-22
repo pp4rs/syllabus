@@ -31,7 +31,7 @@ header-includes:
 
 # Motivation
 
-Much of of a researchers live in modern economic research is spent in front of a computer -- be it to analyze data or to simulate economic models.
+Much of a researchers live in modern economic research is spent in front of a computer -- be it to analyze data or to simulate economic models.
 
 Unfortunately, it is rare that we have been taught how to do this in a structured and efficient way.
 Class exposure to programming languages is most often limited to the simple use of Stata and Matlab to solve `toy' examples designed to illustrate a theoretical result or implement a method with known properties and ex-ante known results.

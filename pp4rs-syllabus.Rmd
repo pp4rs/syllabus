@@ -9,17 +9,16 @@ geometry: margin=0.85in
 
 title: "Programming Practices for Research in Economics"
 author:
-    - Ulrich Bergmann
-    - Matteo Courthoud
     - Lachlan Deer
-semester: "Winter 2020"
+    - Julian Langer
+semester: "Fall 2021"
 
 email: "pp4rs.contact@gmail.com"
-web: "pp4rs.github.io/2020-uzh"
+web: "To Be Announced"
 classroom: "To Be Announced"
 classhours:
 - "9:30am-12:30pm, 2pm - 5pm"
-dates: "27th January - 14th February"
+dates: "1st September - 17th September"
 days: "daily, Monday - Friday"
 
 fontfamily: mathpazo
@@ -61,16 +60,27 @@ The programming languages and tools introduced in the course are not the only ch
 
 #  Course Objectives
 
-This course has two closely intertwined objectives:
+By the end of this course, students will be able to:
 
-1. Enhancing students' programming efficiency.
-2. Providing the tools to make data analysis and computation reproducible.
+1. Use a computer's command line to provide text instructions that can navigate around a computer's filesystem, copy and move files and edit new/existing files.
+2. Explain different variable types and their advantages and disadvantages in Python and R.
+3. Construct scripts that load, manipulate and visualize data in Python and R.
+4. Implement statistical and economic models in Python and R.
+5. Run Python and R inside a GUI and from the command line (including passing across complex arguments).
+6. Explain the advantages of using a Version Control Software such as Git as opposed to 'manual' version control.
+7. Manage a version controlled project using Git.
+8. Explain what a workflow management system is and their advantages for economics and business research.
+9. Manage a research project using the workflow management software Snakemake.
+
 
 Learning objectives for specific modules will be provided within the Course Notes.
 
 # Evaluation
 
-The course is evaluated on a pass/fail basis. There will be a final assignment that is due four weeks after the course concludes. This assignment will count 100\%. More information will be provided before the course begins.
+The course is evaluated on a pass/fail basis. 
+There will be a final assignment that is due four weeks after the course concludes that utilizes the tools student's learned to use in class. 
+This assignment will count 100\%. 
+More information will be provided in the first class.
 
 # Rules of the Game
 
@@ -88,7 +98,7 @@ Feel free to talk to us before and after each session throughout the course and 
 
 # Times and Locations
 
-* Dates: Daily from 27th January until 14th February (excluding weekends)
+* Dates: Daily from 1st September until 17th September (excluding weekends)
 * Morning Session: 9.30 - 12.30
 * Afternoon Session: 14.00 - 17.00
 * Location: TBA
@@ -98,33 +108,22 @@ Feel free to talk to us before and after each session throughout the course and 
 # Preliminary Programme
 
 The following is a preliminary programme.
-It may be updated prior to the beginning of the course, and updated schedule will be forwarded before the course begins.
+It may be updated prior to the beginning of the course, an updated schedule will be forwarded before the course begins.
 
   |              |  Monday         |       Tuesday       |       Wednesday         |      Thursday      |     Friday     |
   | -----------  |-----------------| ------------------- | ------------------------|--------------------| ---------------|
   | *Week 1:*    |   |   |   |   |   |   |
-  | AM           |  Terminal*      |  Basic Python       |  Basic Python           | Python: Pandas     | Python: Metrics |
-  | PM           |  Terminal*      |  Basic Python       | Python: Numpy           | Python: Plotting   | Python: SciPy   |
+  | AM           |                 |                     |  Installation Help      |   Terminal         | Basic Python   |
+  | PM           |                 |                     |  Installation Help      | Basic Python       | Basic Python   |
   | *Week 2:*    |   |   |   |   |   |   |
-  | AM           | Webscraping      | Python Project     |   Version Control*      | Version Control*    | R: Basics*      |
-  | PM           |  Adv. Python     | Python Project     |  Version Control*       | R: Basics*          | R: Data Analy.* |
+  | AM           |  Python: Numpy  | Python: Plotting    |  Python: SciPy          | Adv. Python        | Version Control |
+  | PM           |  Python: Pandas | Python: Metrics     |    Webscraping          | Version Control    |  R: Basics     |
   | *Week 3:*    |   |   |   |   |   |   |
-  | AM           | R: Plotting*     | R: Econometrics    | R Project               |  Build Tools*       |  Build Tools |
-  | PM           | R: Econometrics* | Advanced R         | R Project               |  Build Tools*       |  Build Tools  |
+  | AM           |     R: Basics   |   R: Plotting       |   R: Econometrics       |  Build Tools       |  Project Kickstarter  |
+  | PM           | R: Data Analy.  |   R: Econometrics   |   Advanced R            |  Build Tools       |  Project Kickstarter  |
 
-Students are expected to have completed the [Installation Guide](https://pp4rs.github.io/installation-guide/) and successfully installed all required software for the course prior to the first day.
-
-## 1st Year Students vs. 2nd Year Students
-
-In this edition we have two distinct groups of students:
-
-* 1st year PhD Students, who have not taken any existing PP4RS courses
-    - We expect you to attend **all sessions**
-* 2nd year PhD Students, who have taken the PP4RS: Foundations course in 2019
-    - Can skip sessions marked with a *, but can attend as a refresher
-    - We expect you to be fluent in these topics
-
-The exact topics covered in each session market with a * might differ slightly from the 2019 version as we have more time and our thoughts on what is important to cover may have evolved over time.
+Students are expected to have completed the [Installation Guide](https://pp4rs.github.io/installation-guide/) and successfully installed all required software for the course prior to the first day, Thursday 2nd September.
+The instructors will hold an "Installation Help" session where students can drop in and get additional help configuring their computers if needed.
 
 ## Brief Topic Outlines
 
@@ -133,7 +132,7 @@ The exact topics covered in each session market with a * might differ slightly f
 The Unix shell has been around longer than most of its users have been alive.
 It has survived so long because it’s a power tool that allows people to do complex things with just a few keystrokes.
 More importantly, it helps to combine existing programs in new ways and automate repetitive tasks to avoid typing the same things over and over again.
-Use of the shell is fundamental to using a wide range of other powerful tools and computing resources (including “high-performance computing” and cloud computing resources).
+Use of the shell is fundamental to using a wide range of other powerful tools and computing resources (including "high-performance computing" and cloud computing resources).
 These lessons will start you on a path towards using these resources effectively.
 
 ### Python Programming Language

@@ -43,7 +43,7 @@ It is aimed at PhD students who expect to write their theses in a field that req
 Examples include applied microeconomics, econometrics, macroeconomics, computational economics and any field that either involves real-world data or does not generally lead to models with simple closed-form solutions.
 
 The course introduces students to a set of industry standard tools and programming methods that aim to reduce time spent programming while at the same time making programs more dependable and results reproducible.
-It draws extensively on basic techniques and tools that are the backbone of modern software development and have enabled the development and maintainance of Windows or the Google search engine.
+It draws extensively on basic techniques and tools that are the backbone of modern software development and have enabled the development and maintenance of Windows or the Google search engine.
 At the same time, these tools are simple enough to be used in small research projects, too.
 The course shows the usefulness of these techniques and trains the student in them by means of hands-on examples for a wide variety of economic and econometric applications.
 

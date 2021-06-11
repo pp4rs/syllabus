@@ -30,27 +30,25 @@ header-includes:
 
 # Motivation
 
-Much of a researchers live in modern economic research is spent in front of a computer -- be it to analyze data or to simulate economic models.
+Much of a researcher's time in modern economics and business research is spent in front of a computer 'doing' some form of computational analysis -- be it to analyze data or to simulate economic models.
 
-Unfortunately, it is rare that we have been taught how to do this in a structured and efficient way.
+Until recently, there has been little emphasis on teaching early career researchers how to perform their computational tasks and manage the resulting projects in a structured and efficient way.
 Class exposure to programming languages is most often limited to the simple use of Stata and Matlab to solve `toy' examples designed to illustrate a theoretical result or implement a method with known properties and ex-ante known results.
-These skills, like copy and pasting pieces of code repeatedly, do not scale up in a straightforward manner to handle complex projects that make up research papers, PhD theses or typical work in government or private business settings.
-As a result, young economic researchers spend too much time wrestling with software and too little time doing economics -- our comparative advantage.
-Even with large investments in software wrestling and self-learned skills, we typically have no idea how reliable or efficient our programs are.
+These skills do not scale up in a straightforward manner to handle complex projects that make up research papers, PhD theses or typical work in government or private business settings.
+As a result, young economics and business researchers spend too much time wrestling with software and too little time doing research -- where our comparative advantage lies.
 
-This course is designed to improve learners' programming abilities.
-It is aimed at PhD students who expect to write their theses in a field that requires modest to heavy use of computation.
-Examples include applied microeconomics, econometrics, macroeconomics, computational economics and any field that either involves real-world data or does not generally lead to models with simple closed-form solutions.
+This course is designed to improve learner's programming abilities and acquire skills to decrease their time wrestling with software.
+It is aimed at PhD students who expect to write their theses in a field that requires modest to heavy use of computation and analyzing data.
+Examples include applied microeconomics, econometrics, macroeconomics, quantitative marketing, quantitative finance and other fields that either involve real-world data or do not generally lead to analytical models with closed-form solutions.
 
-The course introduces students to a set of industry standard tools and programming methods that aim to reduce time spent programming while at the same time making programs more dependable and results reproducible.
-It draws extensively on basic techniques and tools that are the backbone of modern software development and have enabled the development and maintenance of Windows or the Google search engine.
-At the same time, these tools are simple enough to be used in small research projects, too.
-The course shows the usefulness of these techniques and trains the student in them by means of hands-on examples for a wide variety of economic and econometric applications.
+The course introduces students to a new set of tools and programming methods that aim to reduce time spent programming while at the same time making programs more dependable and results reproducible.
+It draws extensively on techniques and tools that are the backbone of modern software development and large scale data science.
+Students gain insight into the the usefulness of these techniques and how to use them by means of hands-on examples from a wide variety of applications in economics and business research.
 
 # Target Audience
 
-This course is intended for PhD students who are transitioning from coursework to research.
-Next to your economics background, we will only assume that you have written small pieces of code before, like Stata .do-files or Matlab .m-files for problem sets in your Masters degree or first-year PhD classes.
+This course is intended for PhD students in economics and business who are transitioning from coursework to research.
+Next to your economics/business background, we will only assume that you have written small pieces of code before, like Stata .do-files or Matlab .m-files for problem sets in your Masters degree or first-year PhD classes.
 Knowledge of a specific programming language is not required.
 
 A large part of this course is really about tool choice.
@@ -62,7 +60,7 @@ The programming languages and tools introduced in the course are not the only ch
 
 By the end of this course, students will be able to:
 
-1. Use a computer's command line to provide text instructions that can navigate around a computer's filesystem, copy and move files and edit new/existing files.
+1. Use a computer's command line to provide text instructions that can navigate around a computer's file-system, copy and move files and edit new/existing files.
 2. Explain different variable types and their advantages and disadvantages in Python and R.
 3. Construct scripts that load, manipulate and visualize data in Python and R.
 4. Implement statistical and economic models in Python and R.
@@ -107,7 +105,7 @@ Feel free to talk to us before and after each session throughout the course and 
 
 # Preliminary Program
 
-The following is a preliminary programme.
+The following is a preliminary program.
 It may be updated prior to the beginning of the course, an updated schedule will be forwarded before the course begins.
 
   |              |  Monday         |       Tuesday       |       Wednesday         |      Thursday      |     Friday     |

@@ -129,11 +129,9 @@ The instructors will hold an "Installation Help" session where students can drop
 
 ### Terminal
 
-The Unix shell has been around longer than most of its users have been alive.
-It has survived so long because it’s a power tool that allows people to do complex things with just a few keystrokes.
-More importantly, it helps to combine existing programs in new ways and automate repetitive tasks to avoid typing the same things over and over again.
-Use of the shell is fundamental to using a wide range of other powerful tools and computing resources (including "high-performance computing" and cloud computing resources).
-These lessons will start you on a path towards using these resources effectively.
+The Unix shell emphasizes providing text-based instructions to computers.
+It's a power lies in the ability to do complex and repetitive tasks with a few keystrokes.
+Use of the shell is fundamental starting point into using a wide range of other powerful tools and computing resources (including "high-performance computing" and cloud computing resources).
 
 ### Python Programming Language
 
@@ -141,12 +139,16 @@ Python is one of the most popular and fastest growing programming language becau
 It has also become the most used statistical software in the recent years.
 These modules have two distinct goals: (1) introduce basic programming syntax, and (2) introducing specific packages that are useful for computational analysis and data-driven research.
 We introduce basic programming syntax using the Python language because of its simplicity to get started for novice users.
-The introductions to specific packages are designed to highlight how to solve problems that are typically encountered by economics and business researchers -- such as solving models using computational techniques, the automated collection of data from websites or applied microeconometric modelling, using the Python language.
-We emphasize best practice technqiues as we progress through the material.
+The introductions to specific packages are designed to highlight how to solve problems that are typically encountered by economics and business researchers -- such as solving models using computational techniques, the automated collection of data from websites and applied econometric modeling.
+We emphasize best practice techniques as we progress through the material.
 
 ### Version Control
 
-Version control is the lab notebook of the digital world: it’s what professionals use to keep track of what they’ve done and to collaborate with other people.
+Version control is the lab notebook of the digital world: it's what software development teams, and increasingly applied researchers, use to keep track of what they've done and to collaborate.
+The idea of a formal version control software is to take systematic 'snapshots' of our work and store the changes so one can easily track the development of their work and, when necessary go to a previous version of a file. 
+We introduce the basics of version control using Git, and show how to use it with online repositories such as GitHub to share our work with others.
+We then look at more advanced version control techniques such as maintaining multiple parallel versions of our files so that we can test out changes, and then either revert back to an old state or integrate the new updates into our stable code base.
+
 Every large software development project relies on it, and programmers use it for their small jobs as well.
 And it isn’t just for software: books, papers, small data sets, and anything that changes over time or needs to be shared can and should be stored in a version control system.
 Teams are not the only ones to benefit from version control: lone researchers can benefit immensely. Keeping a record of what was changed, when, and why is extremely useful for all researchers if they ever need to come back to the project later on (e.g., a year later, when memory has faded or a former version of a file has been overwritten).
@@ -154,16 +156,18 @@ Teams are not the only ones to benefit from version control: lone researchers ca
 ### The R Programming Language
 
 The goal of this lesson is to teach novice programmers to write modular code and best practices for using R for data analysis.
-R is free, computationally fast, and has a wide array of third-party packages for almost all imaginable statistical applications. It is the second most used statistical software today and the most popular one among academic researchers.
+R is free and has a wide array of third-party packages for almost all imaginable statistical applications. 
 The emphasis of these materials is to give attendees a strong foundation in the fundamentals of R and to teach best practices for scientific computing: breaking down analyses into modular units, task automation, and encapsulation.
-This workshop will focus on teaching the fundamentals of the programming language R, data wrangling, data visualization and regression techniques common to applied microeconomics researchers.
+This workshop will focus on teaching the fundamentals of the programming language R, data wrangling, data visualization and regression techniques common to applied researchers.
 
 ### Build Tools
 
-Build Tools can run commands to read files, process these files in some way, and write out the processed files. For example, we can:
+Build Tools can run commands to read files, process these files in some way, and write out the processed files in a specified order. 
+For example, we can:
 
 * Run analysis scripts on raw data files to get data files that summarize the raw data;
 * Run visualization scripts on data files to produce plots and statistical tables; and to
 * Parse and combine text files, tables and plots to create papers.
 
-Most importantly, Build Tools track the dependencies between the files they create and the files used to create them. This allows build tools to only recompute necessary steps after a data or code file has been changed -- without the need to run the whole project from the beginning.
+Most importantly, Build Tools track the dependencies between the files they create and the files used to create them. 
+This allows build tools to only recompute necessary steps after a data or code file has been changed -- without the need to run the whole project from the beginning.

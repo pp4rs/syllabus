@@ -14,7 +14,7 @@ author:
 semester: "Fall 2021"
 
 email: "pp4rs.contact@gmail.com"
-web: "To Be Announced"
+web: "pp4rs.github.io/2021-uzh"
 classroom: "To Be Announced"
 classhours:
 - "9:30am-12:30pm, 2pm - 5pm"
@@ -134,7 +134,7 @@ Use of the shell is the fundamental starting point into using a wide range of ot
 ### Python Programming Language
 
 Python is one of the most popular and fastest growing programming languages because of its ease of use and power.
-It has also become the most used statistical software in recent years.
+It has become the most used statistical software in recent years due to its extensive machine learning libraries.
 These modules have two distinct goals: (1) introduce basic programming syntax, and (2) introduce specific packages that are useful for computational analysis and data-driven research.
 We introduce basic programming syntax using the Python language because of its simplicity to get started for novice users.
 The introductions to specific packages are designed to highlight how to solve problems that are typically encountered by economics and business researchers -- such as solving models using computational techniques, the automated collection of data from websites and applied econometric modeling.

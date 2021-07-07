@@ -5,7 +5,7 @@
 *   Module Maintainer: Lachlan Deer (`@lachlandeer`)
 *   Course: [Programming Practices for Research in Economics](https://github.com/pp4rs)
 *   Institute: Dept of Economics, Uni Zurich
-*   Current Version: [Fall 2021 edition](https://pp4rs.github.io/2020-uzh)
+*   Current Version: [Fall 2021 edition](https://pp4rs.github.io/2021-uzh)
 
 ## Want to Contribute?
 
@@ -14,7 +14,7 @@
 
 ## License
 
-All materials are licensed under a Creative Commons CC-BY-NC-SA license. The license allows you to copy, remix and redistribute any of our publicly available materials, under the condition that you attribute the work (details in the license) and do not make profits from it. More information is available [here](LICENSE.md)
+All materials are licensed under a Creative Commons CC-BY-SA license. The license allows you to copy, remix and redistribute any of our publicly available materials, under the condition that you attribute the work (details in the license) and do not make profits from it. More information is available [here](LICENSE.md)
 
 
 ## Suggested Citation

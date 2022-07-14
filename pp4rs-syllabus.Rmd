@@ -11,14 +11,15 @@ title: "Programming Practices for Research in Economics"
 author:
     - Lachlan Deer
     - Julian Langer
-semester: "Fall 2021"
+    - Martin Stancsics
+semester: "Fall 2022"
 
 email: "pp4rs.contact@gmail.com"
-web: "pp4rs.github.io/2021-uzh"
+web: "pp4rs.github.io/2022-uzh"
 classroom: "To Be Announced"
 classhours:
 - "9:30am-12:30pm, 2pm - 5pm"
-dates: "1st September - 17th September"
+dates: "24th August - 9th September"
 days: "daily, Monday - Friday"
 
 fontfamily: mathpazo
@@ -65,10 +66,11 @@ By the end of this course, students will be able to:
 3. Construct scripts that load, manipulate and visualize data in Python and R.
 4. Implement statistical and economic models in Python and R.
 5. Run Python and R inside a GUI and from the command line (including passing across complex arguments).
-6. Explain the advantages of using a Version Control Software such as Git as opposed to 'manual' version control.
-7. Manage a version controlled project using Git.
-8. Explain what a workflow management system is and their advantages for economics and business research.
-9. Manage a research project using the workflow management software Snakemake.
+6. Use and manage conda environments
+7. Explain the advantages of using a Version Control Software such as Git as opposed to 'manual' version control.
+8. Manage a version controlled project using Git.
+9. Explain what a workflow management system is and their advantages for economics and business research.
+10. Manage a research project using the workflow management software Snakemake.
 
 
 Learning objectives for specific modules will be provided within the Course Notes.

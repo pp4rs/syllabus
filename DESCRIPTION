@@ -1,10 +1,10 @@
 Lesson: syllabus
 Title: Course Syllabus for Programming Practices for Research Students
-Version: 2021.1.0
-Authors: person("Lachlan", "Deer", email = "lachlan.deer@gmail.com", role = c("aut", "cre")),
-person("Julian", "Langer", email = "jlnlanger@googlemail.com", role = c("aut", "cre")),
-person("Ulrich", "Bergmann", email = "ulrich.bergmann@gmail.com", role = c("aut"))
-Maintainer: Lachlan Deer <lachlan.deer@gmail.com>
+Version: 2022.1.0
+Authors: person("Lachlan", "Deer", email = "lachlan.deer@gmail.com", role = c("cre")),
+person("Julian", "Langer", email = "jlnlanger@googlemail.com", role = c("cre")),
+person("Martin", "Stancsics", email = "martin.stancsics@gmail.com", role = c("aut"))
+Maintainer: Martin Stancsics <martin.stancsics@gmail.com>
 Description: Course Syllabus. Built using `knitr`
 License: CC-BY-SA
 Encoding: UTF-8
